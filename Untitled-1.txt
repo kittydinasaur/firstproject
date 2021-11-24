@@ -7,7 +7,7 @@ two types of programming langugauges (up until 2010 or so)
             - very fast, downsides: huge and expensive, too complicated for accessibility
             - only an "engine" so requires a program, like Node, interpreter and JIT, "wrapped JIT", "Runtime" on top of V8, JIT
 
-Chocolatey and package managers
+Chocolatey (windows package manager) and package managers - find on NPM for javascript
 GIT
 Installer(has binary, installer is wrapper) vs binary
 shells
@@ -40,3 +40,4 @@ var print_dog = function(some_dog){
     }
 }
 ```
+
