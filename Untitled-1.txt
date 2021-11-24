@@ -1,0 +1,42 @@
+two types of programming langugauges (up until 2010 or so)
+    compiler = og, result is compiled program that CPU then runs (once), 2 step process
+            - downsides : slow as a process
+    interpreter/scripting = fluid, 1 step process
+            - downsides: slower for computer, because interpretor running the whole time
+    JIT - just in time compiler, result compiled program , fluid to use lke interpreter, compiling multiple times
+            - very fast, downsides: huge and expensive, too complicated for accessibility
+            - only an "engine" so requires a program, like Node, interpreter and JIT, "wrapped JIT", "Runtime" on top of V8, JIT
+
+Chocolatey and package managers
+GIT
+Installer(has binary, installer is wrapper) vs binary
+shells
+
+
+GOod resources: stackoverflow (forum), discord, 
+
+control shift p is commang pallette
+        -to run code: control alt N
+        - variables are how you store data (one thing store in a labeled box)
+                - `var dog_name` to declare a variable called dog_name 
+                        - `= "lily"` initializes with value
+                -string ("lily") and  numbers are values 
+                - object - compound value, multile pieces of information, can be used as string 
+        - functions (procedures) - tiny programs inside of program
+
+console.log prints value to the terminal (either strings or literatal representation, like lily)
+console.dir prints always prints literal representation like  'lily' or [functions]
+console.log or console.dir (whatever name.toString())- to get your functiion printed/sourcecode
+
+undefined - bad values, instead of errors
+if statements - === means equal, !== means if not4
+```javascript
+var print_dog = function(some_dog){
+    var name_and_age = some_dog.name + " (" + some_dog.age +") "
+    if(some_dog.description === undefined){
+        console.log(name_and_age)
+    } else{
+        console.log(name_and_age + some_dog.description)
+    }
+}
+```
